@@ -42,4 +42,4 @@ public class CoursController {
     public List<Cours> searchByMatiere(@RequestParam String matiere) {
         return coursRepository.findByMatiereContainingIgnoreCase(matiere);
     }
-}
+}           
